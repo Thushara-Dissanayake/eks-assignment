@@ -25,4 +25,6 @@ EksAssignmentStack(app, "EksAssignmentStack",
     # For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
     )
 
+cdk.Tags.of(app).add("Creator","Thushara")
+
 app.synth()
