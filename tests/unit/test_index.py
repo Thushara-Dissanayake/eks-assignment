@@ -1,5 +1,5 @@
 import pytest
-import index
+import eks_assignment.lambda_handler.index as index
 
 def env(env: str):
     if env == "dev":
